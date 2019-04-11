@@ -70,6 +70,7 @@ export default class example extends Component {
       alert(`store pin ${confirmedPinCode} and navigate to randomization`);
   }
   
+  // pins dont match
   render() {
     const { headingText, newPincode, tempNewPin } = this.state;
     return (
